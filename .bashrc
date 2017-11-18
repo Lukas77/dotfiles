@@ -1,16 +1,6 @@
-export PATH=/usr/local/bin:$PATH
-
-export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-source /usr/local/bin/virtualenvwrapper.sh
-
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 export LANG="en_US.UTF-8"
-
-export GOROOT=/usr/local/opt/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 alias ls="ls -G"
 alias l="ls -a"

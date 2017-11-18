@@ -199,16 +199,22 @@ syntax on
 " show line numbers
 set nu
 
+" no arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 " tab navigation mappings
 map tn :tabn<CR>
 map tp :tabp<CR>
 map tm :tabm 
 map tt :tabnew 
 map ts :tab split<CR>
-map <C-S-Right> :tabn<CR>
-imap <C-S-Right> <ESC>:tabn<CR>
-map <C-S-Left> :tabp<CR>
-imap <C-S-Left> <ESC>:tabp<CR>
+" map <C-S-Right> :tabn<CR>
+" imap <C-S-Right> <ESC>:tabn<CR>
+" map <C-S-Left> :tabp<CR>
+" imap <C-S-Left> <ESC>:tabp<CR>
 
 " navigate windows with meta+arrows
 "map <M-Right> <c-w>l

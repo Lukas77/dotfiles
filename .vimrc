@@ -126,9 +126,10 @@ Plugin 'matchit.zip'
 Plugin 'Wombat'
 " Yank history navigation
 Plugin 'YankRing.vim'
-
 " Rust support
 Plugin 'rust-lang/rust.vim'
+" Ack - search tool
+Plugin 'mileszs/ack.vim'
 
 " ============================================================================
 " Install plugins the first time vim runs

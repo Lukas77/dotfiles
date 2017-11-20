@@ -32,6 +32,8 @@ Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree'
 " Code commenter
 Plugin 'scrooloose/nerdcommenter'
+" Git flags for NERDTree
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 " Class/module browser
 Plugin 'majutsushi/tagbar'
 " Code and files fuzzy finder
@@ -162,7 +164,6 @@ set confirm
 " no backup files
 set nobackup
 " other settings 
-"set langmenu=zh_CN.UTF-8
 set mouse=a
 "set whichwrap+=<,>,h,l,[,]
 set background=dark
@@ -549,8 +550,10 @@ let g:vim_markdown_frontmatter=1
 " and when you open this, you can manually trigger preview
 " via the command :InstantMarkdownPreview
 let g:instant_markdown_autostart = 0
+" no vim-go requires newer version warning
+let g:go_version_warning = 0
 
-" Recursive file search
+"Recursive path search
 set path+=**
 
 " Use virtual env modules' tags if virtual env active

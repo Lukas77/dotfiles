@@ -55,6 +55,8 @@ Plugin 'fisadev/FixedTaskList.vim'
 Plugin 'tpope/vim-surround'
 " Vairous keymaps
 Plugin 'tpope/vim-unimpaired'
+" Repeat for tpope's plugins
+Plugin 'tpope/vim-repeat'
 " Autoclose
 Plugin 'Townk/vim-autoclose'
 " Indent text object
